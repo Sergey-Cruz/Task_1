@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.flag-ukraine {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    background: linear-gradient(to bottom, #005BBB 50%, #FFD500 50%);
+}
+
+.flag-japan {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    background: radial-gradient(100px at 50% 50%, #BC002D 0, #BC002D 60%, transparent 60%, transparent 100%), white;
+}
+
+.flag-iceland {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    background: linear-gradient(to bottom, transparent 43%, #D72828 43%, #D72828 54%, transparent 54%), linear-gradient(to right, transparent 34%, #D72828 34%, #D72828 41%, transparent 41%), linear-gradient(to right, transparent 30%, white 30%, white 45%, transparent 45%), linear-gradient(to bottom, transparent 38%, white 38%, white 59%, transparent 59%), #003897;
+}
+
+
+.flag-czech {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    background: linear-gradient(146deg, #11457E 25%, transparent 15%) 0 -100px, linear-gradient(34deg, #11457E 25%, transparent 15%) 0 -100px, linear-gradient(to bottom, white 50%, #D7141A 50%);
+    background-size: 300px 200px;
+}
